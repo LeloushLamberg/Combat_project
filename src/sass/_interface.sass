@@ -1,3 +1,26 @@
+body
+  font-family: sans-serif
 .container
   width: 1170px
   margin: auto
+@media (max-width: 1200px)
+  .container
+    max-width: 1170px
+    width: 95%
+@media (max-width: 768px)
+  .container
+    max-width: 750px
+    width: 95%
+@media (max-width: 567px)
+  .container
+    max-width: 550px
+    width: 95%
+@media (max-width: 320px)
+  .container
+    max-width: 280px
+    width: 95%
+.button
+  border-radius: 10px
+  background-color: $main-color
+  border: none
+
