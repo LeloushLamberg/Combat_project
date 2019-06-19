@@ -41,7 +41,7 @@ body {
     padding-bottom: 7px; }
   .navbar__phone {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color: #333333;
     padding-bottom: 3px; }
@@ -50,6 +50,33 @@ body {
     margin-left: 30px;
     font-size: 13px;
     font-weight: 740; }
+
+main {
+  background-color: #f5f5f5; }
+
+.hero-block {
+  padding-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.hero-text__title {
+  font-size: 41px;
+  font-weight: 600;
+  line-height: 55px;
+  color: #333333; }
+
+.hero-text__subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 65px;
+  color: #333333; }
+
+.hero-image__image {
+  margin-right: -40px; }
 
 @media (max-width: 1200px) {
   .container {
