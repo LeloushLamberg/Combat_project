@@ -1,21 +1,44 @@
 main
   background-color: $dark-bgc
-.hero-block
-  padding-top: 45px
-  display: flex
-  justify-content: space-between
-.hero-text
-  &__title
-    font-size: 41px
-    font-weight: 600
-    line-height: 55px
-    color: $text-color
-  &__subtitle
-    font-size: 20px
-    font-weight: 600
-    line-height: 65px
-    color: $text-color
-.hero-image
-  &__image
-    margin-right: -40px
+.hero
+  &-block
+    padding-top: 45px
+    display: flex
+    justify-content: space-between
+  &-text
+    &__title
+      font-size: 41px
+      +bold
+      line-height: 55px
+      color: $text-color
+    &__subtitle
+      font-size: 20px
+      +bold
+      line-height: 65px
+      color: $text-color
+  &-image
+    &__image
+      margin-right: -40px
     
+  &-list
+    
+    margin: 0
+    padding: 0
+    &__item
+      list-style-type: none
+      display: flex
+      align-items: center
+    &__image
+      display: flex
+      align-items: center
+      justify-content: center
+      flex-basis: 40px
+      height: 40px
+      border: 2px solid $main-color
+      border-radius: 50%
+      flex-grow: 0
+    &__text
+      flex-basis: 40%
+    &__space
+      flex-basis: 40%
+

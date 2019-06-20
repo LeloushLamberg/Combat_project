@@ -6,29 +6,32 @@
     align-items: center
   &__info
     display: flex
+    margin-top: -4px
+    
     
   &__contacts
+    
     display: flex
     flex-direction: column
-    justify-content: center
+    justify-content: space-around
     text-align: right
     
   &__address
     font-size: 13px
-    font-weight: 500 
+    +reg
     color: $text-color
-    padding-bottom: 7px
+    
   &__phone
     font-size: 20px
-    font-weight: 600
+    +large
     text-decoration: none
     color: $text-color
-    padding-bottom: 3px
+    
   &__button
     padding: 18px 30px
     margin-left: 30px
     font-size: 13px
-    font-weight: 740
+    +bold
   
 
 
