@@ -1,44 +1,68 @@
 main
   background-color: $dark-bgc
 .hero
+  
   &-block
-    padding-top: 45px
     display: flex
     justify-content: space-between
+    &_padding-top
+      padding-top: 44px
   &-text
+    display: flex
+    flex-direction: column
+    
     &__title
+      padding-top: 32px
+      margin-left: -2px
       font-size: 41px
       +bold
       line-height: 55px
       color: $text-color
+      flex-basis: 29%
+      align-self: flex-end
     &__subtitle
+      
       font-size: 20px
       +bold
-      line-height: 65px
+      line-height: 0px
       color: $text-color
+      flex-basis: 15%
+      
   &-image
     &__image
       margin-right: -40px
     
   &-list
-    
     margin: 0
     padding: 0
+    flex-basis: auto
     &__item
       list-style-type: none
       display: flex
       align-items: center
+      margin-bottom: 30px
+
+      &:last-child
+        margin-bottom: 45px
     &__image
       display: flex
       align-items: center
       justify-content: center
-      flex-basis: 40px
-      height: 40px
+      flex-basis: 36px
+      height: 36px
       border: 2px solid $main-color
       border-radius: 50%
       flex-grow: 0
+      
+      
     &__text
-      flex-basis: 40%
+      display: flex
+      align-items: stretch
+      flex-basis: 43%
+      padding-left: 31px
+      font-size: 14px
+      font-weight: 400
+      
     &__space
-      flex-basis: 40%
-
+      flex-basis: auto
+ 
