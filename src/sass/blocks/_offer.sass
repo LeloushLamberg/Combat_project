@@ -1,21 +1,5 @@
 .offer
-  background-image: url("../img/bg-image.png")
-  background-repeat: no-repeat
-  background-position: center right 
-  background-size: contain
-  position: relative
-  &::before
-    content: ''
-    position: absolute
-    top: 0
-    left: 0
-    background-color: $light-bgc
-    width: 50%
-    height: 100%
-
-  &-block
-    width: 50%
-    position: relative
+   
   &-text
     width: 60%
     display: flex
@@ -39,7 +23,7 @@
       
 
   &-form
-    &_padding-top
+    &_padding
       padding-top: 15px
     &__name
       padding-left: 25px
@@ -84,4 +68,21 @@
       +bold
       line-height: 24px
 
-    
+@media (max-width: 2560px)
+  .offer
+    background-image: url("../img/bg-image.png")
+    background-repeat: no-repeat
+    background-position: center right 
+    background-size: contain
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      background-color: $light-bgc
+      width: 50%
+      height: 100%  
+    &-block
+      width: 50%
+      position: relative

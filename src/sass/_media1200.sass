@@ -46,6 +46,19 @@
         height: 40px
         line-height: 1.6
   .offer
+    background-image: url("../img/bg-image.png")
+    background-repeat: no-repeat
+    background-position: center right 
+    background-size: contain
+    position: relative
+    &::before
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      background-color: $light-bgc
+      width: 50%
+      height: 100%  
     &-submit
       &__button
         padding: 25px 60px
@@ -55,4 +68,3 @@
     border: 1px solid $unactive
     height: 4em
     width: 13.35em 
-    
