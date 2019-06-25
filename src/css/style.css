@@ -50,9 +50,19 @@ a {
   border: 1px solid #dddddd;
   height: 4.3em;
   width: 16.000em; }
-  .input:active {
-    border-radius: 10px;
+
+input {
+  outline: none; }
+  input:focus {
     border: 1px solid #ffd200; }
+  input:-webkit-autofill {
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both; }
+
+@-webkit-keyframes autofill {
+  to {
+    color: inherit;
+    background: transparent; } }
 
 .navbar {
   padding: 8px 0px; }

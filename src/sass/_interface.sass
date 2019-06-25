@@ -29,9 +29,21 @@ a
   border: 1px solid $unactive
   height: 4.3em
   width: 16.000em
-  &:active
-    border-radius: 10px
+  
+input
+  outline: none
+  &:focus
     border: 1px solid #ffd200
+  &:-webkit-autofill 
+    -webkit-animation-name: autofill
+    -webkit-animation-fill-mode: both
+@-webkit-keyframes autofill 
+  to 
+    color: inherit
+    background: transparent
+  
 
+ 
 
+  
 
