@@ -253,13 +253,16 @@ main {
   font-weight: 400;
   line-height: 24px; }
 
-.offer-submit__button {
+.offer .button {
   margin: 30px 0;
+  padding: 25px 100px; }
+
+.offer-submit__button {
+  padding: 0;
   font-size: 16px;
   font-family: "Museo Sans bold";
   font-weight: 400;
-  line-height: 18px;
-  padding: 25px 100px; }
+  line-height: 18px; }
 
 .offer-call {
   display: -webkit-box;
@@ -402,8 +405,6 @@ main {
       background-color: #fdfdfd;
       width: 50%;
       height: 100%; }
-    .offer-submit__button {
-      padding: 25px 60px; }
   .input {
     border-radius: 10px;
     border: 1px solid #dddddd;
@@ -559,7 +560,7 @@ main {
     padding-left: 15px;
     line-height: 1.3; }
   .hero-image {
-    width: 103%; }
+    width: 102%; }
     .hero-image__image {
       margin: 0;
       max-width: 100%; }
@@ -573,29 +574,43 @@ main {
       width: 95%; }
       .offer-text__title {
         padding-top: 50px;
+        padding-left: 3px;
         margin: 0;
         font-size: 18px;
         font-family: "Museo Sans bold";
         font-weight: 900;
         line-height: initial; }
       .offer-text__subtitle {
-        font-size: 14px; }
+        font-size: 14px;
+        padding: 10px 0; }
     .offer-form_padding {
-      padding-top: 10px; }
+      padding-top: 15px; }
     .offer-form__name {
       width: 97%;
-      padding: 31px 22px;
+      padding: 32px 22px;
       margin: 2px 0; }
     .offer-form__phone {
       width: 97%;
-      padding: 31px 22px;
+      padding: 32px 22px;
       margin: 6px 0; }
+    .offer .button {
+      padding: 17px;
+      margin: 3px 0; }
     .offer-submit {
       width: 97%; }
       .offer-submit__button {
-        margin: 0;
-        padding: 0;
-        white-space: pre-line;
-        font-size: 14px;
-        overflow-wrap: break-word; } }
+        width: 200px;
+        display: inherit;
+        font-size: 14px; }
+    .offer-call {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .offer-call__callback {
+        width: 87%;
+        padding: 20px 7px; }
+      .offer-call-usercall__text {
+        padding-right: 0;
+        padding: 0 7px; } }
 /*# sourceMappingURL=style.css.map */
