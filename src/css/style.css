@@ -505,7 +505,49 @@ main {
   .hero-block {
     max-width: 90%; }
   .hero-image__image {
-    max-width: 90%; } }
+    max-width: 90%; }
+  .offer {
+    background: #fdfdfd;
+    padding: 0;
+    margin: 0; }
+    .offer-block {
+      width: 100%; }
+    .offer-text {
+      width: 95%; }
+      .offer-text__title {
+        padding-top: 50px;
+        padding-left: 3px;
+        margin: 0;
+        font-size: 18px;
+        font-family: "Museo Sans bold";
+        font-weight: 900;
+        line-height: initial; }
+      .offer-text__subtitle {
+        font-size: 14px;
+        padding: 10px 0; }
+    .offer-form_padding {
+      padding-top: 15px; }
+    .offer-form__name {
+      width: 97%;
+      padding: 32px 22px;
+      margin: 2px 0; }
+    .offer-form__phone {
+      width: 97%;
+      padding: 32px 22px;
+      margin: 6px 0; }
+    .offer .button {
+      padding: 25px;
+      margin: 3px 0; }
+    .offer-submit {
+      width: 97%; }
+      .offer-submit__button {
+        width: 400px;
+        display: inherit;
+        font-size: 14px; }
+    .offer-call__callback {
+      padding: 20px 7px 0 7px; }
+    .offer-usercall__text {
+      padding-top: 20px; } }
 
 @media (max-width: 320px) {
   .container {
