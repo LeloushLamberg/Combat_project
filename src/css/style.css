@@ -494,7 +494,35 @@ main {
 @media (max-width: 768px) {
   .container {
     width: 95%;
-    margin: 0px 10px; } }
+    margin: 0px 10px; }
+  .offer-text {
+    width: 100%; }
+  .offer-form__name {
+    width: 100%;
+    margin: 10px 0; }
+  .offer-form__phone {
+    width: 100%;
+    margin: 10px 0; }
+  .offer .button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 25px; }
+  .offer-call {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .offer-call__callback {
+      width: 110%; }
+  .offer-usercall {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0; }
+    .offer-usercall__text {
+      padding: unset;
+      margin-right: 10px; } }
 
 @media (max-width: 567px) {
   .container {
