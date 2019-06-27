@@ -609,8 +609,11 @@ main {
               flex-direction: column; }
       .offer-call__callback {
         width: 87%;
-        padding: 20px 7px; }
-      .offer-call-usercall__text {
-        padding-right: 0;
-        padding: 0 7px; } }
+        padding: 20px 7px 0 7px; }
+    .offer-usercall__text {
+      margin: 0;
+      padding: 3px 7px; }
+    .offer-usercall__phone {
+      margin: 0;
+      padding: 0px 6px; } }
 /*# sourceMappingURL=style.css.map */
