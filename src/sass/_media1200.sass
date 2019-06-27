@@ -1,7 +1,7 @@
 @media (max-width: 1200px)
   .container
     width: 990px
-    margin: auto
+    margin: auto 
   .hero
     &-text
       display: flex
@@ -58,10 +58,21 @@
       left: 0
       background-color: $light-bgc
       width: 50%
-      height: 100%  
-    
+      height: 100% 
+    &-text
+      width: 80% 
+    .button
+      padding: 25px
+    &-submit
+      width: 90%
+    &-form
+      width: 90%
+      display: flex
+      justify-content: space-between
+      
   .input
     border-radius: 10px
     border: 1px solid $unactive
     height: 4em
     width: 13.35em 
+    

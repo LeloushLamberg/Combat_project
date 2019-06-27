@@ -405,6 +405,20 @@ main {
       background-color: #fdfdfd;
       width: 50%;
       height: 100%; }
+    .offer-text {
+      width: 80%; }
+    .offer .button {
+      padding: 25px; }
+    .offer-submit {
+      width: 90%; }
+    .offer-form {
+      width: 90%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
   .input {
     border-radius: 10px;
     border: 1px solid #dddddd;
