@@ -591,7 +591,7 @@ main {
       padding: 25px;
       margin: 3px 0; }
     .offer-submit {
-      width: 97%; }
+      width: 95%; }
       .offer-submit__button {
         width: 270px;
         display: inherit;
@@ -602,6 +602,10 @@ main {
       padding-top: 20px; }
     .offer-usercall__phone {
       padding-top: 20px; } }
+
+@media (max-width: 405px) {
+  .offer-call__callback {
+    width: 70%; } }
 
 @media (max-width: 320px) {
   .container {
