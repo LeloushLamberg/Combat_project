@@ -19,7 +19,7 @@
     <div class="container">
       <div class="navbar-block">
         <div class="navbar__logo">
-          <img src="http://www.lulu0512.ru/Combat_project/src/img/Logo.png" alt="Логотип">
+          <img src="../src/img/Logo.png" alt="Логотип">
         </div>
 
         <div class="navbar__info">
@@ -27,7 +27,7 @@
             <span class="navbar__address"> Калуга, Москва, МО </span>
             <a class="navbar__phone" href="tel:+74954225131"> +7 (495) 42-251-31 </a>
           </div>
-          <button class="button navbar__button"> Перезвоните мне </button>
+          <button id="callback" class="button navbar__button"> Перезвоните мне </button>
         </div>
       </div>
     </div>
@@ -119,7 +119,13 @@
       </div>
     </section>
   </main>
-
+  <div class="modal" id="call-massage">
+    <div class="modal-dialog" >
+      <button class="modal-dialog__close" id="close">&times;</button>
+      <h4 class="modal-dialog__message">В течении 60 секунд наш менеджер перезвонит вам.</h4>
+      <span class="modal-dialog__information">Это окно закроется автоматически</span>
+    </div>
+  </div>
    <!--<section id="" class="test"> 
     <div class="container ">
       <button class="button test-button"></button>
@@ -132,7 +138,7 @@
     </div>
 
   </footer>-->
-
+  <script src="js/main.js"></script>
 </body>
 
 </html>
