@@ -97,8 +97,9 @@
           </div>
 
           <div class="offer-form offer-form_padding">
-            <input type="text" name="username" id="username" class="input offer-form__name" placeholder="Ваше имя" >
-            <input type="text" name="userphone" id="userphone" class="input offer-form__phone" placeholder="Ваш телефон">
+            <input type="text" name="username" id="username" class="input offer-form__name" placeholder="Ваше имя">
+            <input type="text" name="userphone" id="userphone" class="input offer-form__phone"
+              placeholder="Ваш телефон">
           </div>
 
           <button class="button offer-submit">
@@ -106,9 +107,9 @@
           </button>
 
           <div class="offer-call">
-            
+
             <span class="offer-call__callback">Наш менеджер перезвонит Вам в течение 60 секунд</span>
-            
+
             <div class="offer-usercall">
               <span class="offer-usercall__text">или перезвоните нам сами</span>
               <a href="tel:+7(495)42-251-31" class="offer-usercall__phone">+7 (495) 42-251-31</a>
@@ -121,41 +122,52 @@
       </div>
     </section>
 
-    <section id="portfolio" class="portfolio section"> 
+    <section id="portfolio" class="portfolio section">
       <div class="container">
-        <h2 class="portfolio-text portfolio-text__tite">Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и домах</h2>
+        <h2 class="section-title portfolio__tite">Работая с 2007 года, мы сделали более 500 ремонтов в квартирах и
+          домах</h2>
         <div class="portfolio-slider">
           <div class="portfolio-slider__items">
-            <img src="img/slider-1" alt="">
+            <img class="slider__img" src="img/slider-1.jpg" alt="фото -1">
           </div>
-          
+
           <div class="portfolio-slider__items">
-            <img src="img/slider-2" alt="">
+            <img class="slider__img" src="img/slider-2.jpg" alt="фото-2">
           </div>
-          
+
           <div class="portfolio-slider__items">
-            <img src="img/slider-3" alt="">
+            <img class="slider__img" src="img/slider-3.jpg" alt="фото-3">
           </div>
-          
+
           <div class="portfolio-slider__items">
-            <img src="img/slider-4" alt="">
+            <img class="slider__img" src="img/slider-1.jpg" alt="фото -4">
           </div>
-          
+
           <div class="portfolio-slider__items">
-            <img src="img/slider-5" alt="">
+            <img class="slider__img" src="img/slider-2.jpg" alt="фото -5">
           </div>
-          
+
           <div class="portfolio-slider__items">
-            <img src="img/slider-6" alt="">
+            <img class="slider__img" src="img/slider-3.jpg" alt="фото -6">
           </div>
-          
         </div>
+
+        <div class="arrow">
+          <div class="arrow-left">
+            <img src="img/left-arrow.png" alt="назад">
+          </div>
+
+          <div class="arrow-right">
+            <img src="img/right-arrow.png" alt="вперёд">
+          </div>
+        </div>
+
       </div>
     </section>
   </main>
 
   <div class="modal" id="call-massage">
-    <div class="modal-dialog" >
+    <div class="modal-dialog">
       <button class="modal-dialog__close" id="close">&times;</button>
       <h4 class="modal-dialog__message">В течении 60 секунд наш менеджер перезвонит вам.</h4>
       <span class="modal-dialog__information">Это окно закроется автоматически</span>
@@ -165,7 +177,7 @@
   <button class="to-up" id="to-up">
     <img src="" alt="вверх">
   </button>
-   <!--
+  <!--
 
   <footer class="">
     <div class="container">
@@ -173,13 +185,13 @@
     </div>
 
   </footer>-->
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.min.js"
-  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-  crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <!-- <script src="js/main.js"></script> -->
   <script src="js/modal.js"></script>
   <script src="js/slick.min.js"></script>
+  <script src="js/slider.js"></script>
+
 
 </body>
 
