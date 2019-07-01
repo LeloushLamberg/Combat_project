@@ -1,12 +1,44 @@
-var button = document.querySelector('#callback');
-var modal = document.querySelector('#call-massage');
-var close = document.querySelector('#close');
-var getCall = function(){
-  modal.classList.add('modal_active')
-};
-var getClose = function(){
-  modal.classList.remove('modal_active')
-};
-button.addEventListener('click', getCall);
-close.addEventListener('click', getClose);
-setInterval(getClose, 5000);
+// start modal call
+$(document).ready (function(){
+  var button = $('#callback');
+  var modal = $('#call-massage');
+  var close = $('#close');
+  var getCall = function(){
+    modal.addClass('modal_active')
+  };
+  var getClose = function(){
+    modal.removeClass('modal_active')
+  };
+  button.on('click', getCall);
+  close.on('click', getClose);
+  setInterval(getClose, 5000);
+});
+// end modal call
+
+// start sliders
+$(document).ready(function(){
+  $('.portfolio-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    prevArrow: $('.arrow-left'),
+    nextArrow: $('.arrow-right'),
+    responsive: [
+      {
+        breakpoint: 1220,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+    ]
+  });
+});
+// end sliders

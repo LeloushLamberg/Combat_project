@@ -1,14 +1,13 @@
-$(document).ready (function(){
-  var button = $('#callback');
-  var modal = $('#call-massage');
-  var close = $('#close');
-  var getCall = function(){
-    modal.addClass('modal_active')
-  };
-  var getClose = function(){
-    modal.removeClass('modal_active')
-  };
-  button.on('click', getCall);
-  close.on('click', getClose);
-  setInterval(getClose, 5000);
-});
+
+var button = document.querySelector('#callback');
+var modal = document.querySelector('#call-massage');
+var close = document.querySelector('#close');
+var getCall = function(){
+  modal.classList.add('modal_active')
+};
+var getClose = function(){
+  modal.classList.remove('modal_active')
+};
+button.addEventListener('click', getCall);
+close.addEventListener('click', getClose);
+setInterval(getClose, 5000);
