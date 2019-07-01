@@ -12,17 +12,15 @@ $(document).ready (function(){
   button.on('click', getCall);
   close.on('click', getClose);
   setInterval(getClose, 5000);
-});
-// end modal call
+  // end modal call
 
-// start sliders
-$(document).ready(function(){
+  // start sliders
   $('.portfolio-slider').slick({
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 2,
-    prevArrow: $('.arrow-left'),
-    nextArrow: $('.arrow-right'),
+    prevArrow: $('.arrow__left'),
+    nextArrow: $('.arrow__right'),
     responsive: [
       {
         breakpoint: 1220,
@@ -38,7 +36,16 @@ $(document).ready(function(){
           slidesToScroll: 1
         }
       },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
     ]
   });
+  // end sliders
 });
-// end sliders
+
+
