@@ -400,6 +400,66 @@ main {
     .portfolio .arrow__right {
       padding: 15px; }
 
+.price__title {
+  max-width: 515px;
+  font-size: 30px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 45px; }
+
+.price__subtitle {
+  text-align: center;
+  padding: 58px 0;
+  font-size: 20px;
+  font-family: "Museo Sans Light";
+  font-weight: 100;
+  line-height: 45px; }
+
+.price-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .price-image__item {
+    -webkit-box-shadow: 0 0 5px;
+            box-shadow: 0 0 5px;
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    margin: 15px 0;
+    max-width: 370px;
+    max-height: 410px;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .price-image__image {
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+  .price-image__text {
+    font-size: 18px;
+    font-family: "Museo Sans Light";
+    font-weight: 400;
+    padding-top: 40px; }
+  .price-image__price {
+    font-size: 18px;
+    font-family: "Museo Sans Light";
+    font-weight: 400;
+    padding-top: 32px;
+    text-align: center; }
+
 @media (max-width: 1200px) {
   .container {
     width: 990px;
