@@ -1,3 +1,4 @@
+
 // start modal call
 $(document).ready (function(){
   var button = $('#callback');
@@ -47,5 +48,7 @@ $(document).ready (function(){
   });
   // end sliders
 });
-
+// start wow
+new WOW().init();
+  
 
