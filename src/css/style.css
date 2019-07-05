@@ -599,6 +599,31 @@ main {
       font-size: 15px;
       line-height: 50px; }
 
+.footer {
+  position: relative; }
+
+.map {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.contacts {
+  width: 293px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
 @media (max-width: 1200px) {
   .container {
     width: 990px;
