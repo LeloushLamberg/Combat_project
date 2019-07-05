@@ -609,20 +609,54 @@ main {
   top: 0; }
 
 .contacts {
-  width: 293px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .contacts-space {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+  .contacts-block {
+    max-width: 368px;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%; }
+  .contacts__title {
+    font-size: 22px;
+    line-height: 33px;
+    font-family: "Museo Sans bold";
+    font-weight: 400;
+    padding-top: 70px;
+    margin-bottom: 95px; }
+  .contacts-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    list-style: none;
+    padding: 0; }
+    .contacts-list__item {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      margin-bottom: 35px; }
+    .contacts-list__text {
+      -ms-flex-preferred-size: 90%;
+          flex-basis: 90%;
+      line-height: 23px; }
 
 @media (max-width: 1200px) {
   .container {

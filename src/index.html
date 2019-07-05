@@ -212,7 +212,7 @@
       </div>
 
     </section>
-    
+
     <section class="section brif">
       <div class="container">
         <div class="brif-block">
@@ -253,9 +253,9 @@
 
             <span class="form__subtitle">Для этого заполните форму ниже</span>
 
-            <form action="#" class="form-block">
-              <input type="text" name="username" id="name" class="input form-block__input" placeholder="Ваше имя">
-              <input type="text" name="userphone" id="phone" class="input form-block__input" placeholder="Ваш телефон">
+            <form action="#" id="brif-form" class="form-block">
+              <input type="text" name="username" id="name" required class="input form-block__input" placeholder="Ваше имя">
+              <input type="number" name="userphone" id="phone" required  class="input form-block__input" placeholder="Ваш телефон">
               <button class="button form-block__button">Расcчитать стоимость</button>
               <span class="form-block__description">Мы перезвоним Вам в течение 60 секунд</span>
             </form>
@@ -269,32 +269,37 @@
   </main>
   <footer class="footer">
     <div class="map" id="map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A843344ad7c8d391cf3266754fe77a5ff9e69b8a4a6809c2854e03182816d4dec&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp;scroll=true"></script>
+      <script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A843344ad7c8d391cf3266754fe77a5ff9e69b8a4a6809c2854e03182816d4dec&amp;width=100%25&amp;height=640&amp;lang=ru_RU&amp;scroll=true">
+      </script>
     </div>
     <div class="container">
-      <div class="contacts ">
-        <h3 class="contacts__title">Приезжайте к нам в гости! Проконсультируем Вас по всем вопросам ремонта</h3>
-        <ul class="contacts-list">
-          
-          <li class="contacts-list__items">
-            <img src="../src/img/" alt="icon" class="contacts-list__icon">
-            <span class="contacts-list__adress">г. Москва <br>ул. Ленинга, д. 10, <br>корпус 2, оф. 308</span>
-          </li>
-          
-          <li class="contacts-list__items">
-            <img src="../src/img/" alt="icon" class="contacts-list__icon">
-            <span class="contacts-list__time">Режим работы: <br>с 9:00 до 18:00</span>
-          </li>
-          
-          <li class="contacts-list__items">
-            <img src="../src/img/" alt="icon" class="contacts-list__icon">
-            <span class="contacts-list__phone">Телефон: <br>+ 7 (495) 42-251-31</span>
-          </li>
-        </ul>
-        
-        
-        
+      <div class="contacts">
+        <div class="contacts-space"></div>
+        <div class="contacts-block ">
+
+          <h3 class="contacts__title">Приезжайте к нам в гости! Проконсультируем Вас по всем вопросам ремонта</h3>
+          <ul class="contacts-list">
+
+            <li class="contacts-list__item">
+              <img src="../src/img/point.png" alt="icon" class="contacts-list__icon">
+              <span class="contacts-list__text">г. Москва <br> <strong>ул. Ленинга, д. 10, <br>корпус 2, оф. 308</strong></span>
+            </li>
+
+            <li class="contacts-list__item">
+              <img src="../src/img/footer-clock.png" alt="icon" class="contacts-list__icon">
+              <span class="contacts-list__text">Режим работы: <br> <strong>с 9:00 до 18:00</strong></span>
+            </li>
+
+            <li class="contacts-list__item">
+              <img src="../src/img/footer-phone.png" alt="icon" class="contacts-list__icon">
+              <span class="contacts-list__text">Телефон: <br> <strong>+ 7 (495) 42-251-31</strong></span>
+            </li>
+          </ul>
+
+        </div>
       </div>
+
     </div>
 
   </footer>
@@ -309,13 +314,13 @@
   <button class="to-up" id="to-up">
     <img src="img/" alt="вверх">
   </button>
-  
 
-  
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  
-  
+
+
   <script src="js/slick.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>

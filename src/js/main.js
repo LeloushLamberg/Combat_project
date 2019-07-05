@@ -50,5 +50,7 @@ $(document).ready (function(){
 });
 // start wow
 new WOW().init();
+// validation form
+ brif-form
   
 
