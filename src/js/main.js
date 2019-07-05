@@ -47,10 +47,35 @@ $(document).ready (function(){
     ]
   });
   // end sliders
+  // start validation form
+  $("#brif-form").validate({
+    rules: {
+      username: {
+        required: true,
+        minlength: 2
+      },
+      userphone: {
+        required: true,
+        minlength: 10
+      }
+    },
+    messages: {
+      username: {
+        required: "Введите своё имя",
+        minlength: "Введите полное имя"
+      },
+      userghone: {
+        required: "Введите свой телефон",
+        minlength: "Мало цифр. Добавьте код города"
+      }
+    }
+  
+  });
+  // end validation form
 });
+
 // start wow
 new WOW().init();
-// validation form
- brif-form
+
   
 
