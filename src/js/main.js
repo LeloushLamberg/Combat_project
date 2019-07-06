@@ -52,11 +52,16 @@ $(document).ready (function(){
     rules: {
       username: {
         required: true,
-        minlength: 2
+        minlength: 2,
+        maxlength: 15
       },
       userphone: {
         required: true,
         minlength: 10
+      },
+      email: {
+          required: true,
+          email: true
       }
     },
     messages: {
@@ -64,14 +69,18 @@ $(document).ready (function(){
         required: "Введите своё имя",
         minlength: "Введите полное имя"
       },
-      userghone: {
+      userphone: {
         required: "Введите свой телефон",
         minlength: "Мало цифр. Добавьте код города"
+      },
+      email: {
+        required: "Введите свой e-mail",
+        email: "Пожалуйста введите е-mail в формате name@domain.com"
       }
     }
-  
   });
   // end validation form
+  $("#phone").mask("8 (999) 999-9999");
 });
 
 // start wow

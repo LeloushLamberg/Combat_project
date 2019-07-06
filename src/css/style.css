@@ -3,35 +3,42 @@
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.eot");
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 @font-face {
   font-family: "Museo Sans bold";
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.eot");
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box; }
+          box-sizing: border-box;
+}
 
 body {
   font-family: "Museo Sans light";
   font-weight: 300;
   background-color: #fdfdfd;
-  margin: auto; }
+  margin: auto;
+}
 
 .container {
   width: 1170px;
-  margin: auto; }
+  margin: auto;
+}
 
 h1 {
-  margin: 0; }
+  margin: 0;
+}
 
 a {
   text-decoration: none;
-  color: #333333; }
+  color: #333333;
+}
 
 .button {
   border-radius: 10px;
@@ -39,83 +46,111 @@ a {
   background-color: #ffd200;
   font-size: 13px;
   font-family: "Museo Sans bold";
-  font-weight: 400; }
-  .button:hover {
-    background-color: #ffdb33;
-    cursor: pointer; }
+  font-weight: 400;
+}
+
+.button:hover {
+  background-color: #ffdb33;
+  cursor: pointer;
+}
 
 .section {
-  padding: 90px 0 0 0; }
-  .section-title {
-    margin: auto;
-    text-align: center; }
+  padding: 90px 0 0 0;
+}
+
+.section-title {
+  margin: auto;
+  text-align: center;
+}
 
 .input {
   border-radius: 10px;
   border: 1px solid #dddddd;
   height: 4.3em;
-  width: 16.000em; }
+  width: 16.000em;
+}
 
 input {
-  outline: none; }
-  input:focus {
-    border: 1px solid #ffd200; }
-  input:-webkit-autofill {
-    -webkit-animation-name: autofill;
-    -webkit-animation-fill-mode: both; }
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid #ffd200;
+}
+
+input:-webkit-autofill {
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}
 
 @-webkit-keyframes autofill {
   to {
     color: inherit;
-    background: transparent; } }
+    background: transparent;
+  }
+}
 
 .navbar {
-  padding: 8px 0px; }
-  .navbar-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-  .navbar__info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-top: -4px; }
-  .navbar__contacts {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    text-align: right; }
-  .navbar__address {
-    font-size: 13px;
-    font-family: "Museo Sans Light";
-    font-weight: 400;
-    color: #333333; }
-  .navbar__phone {
-    font-size: 20px;
-    font-family: "Museo Sans bold";
-    font-weight: 900;
-    text-decoration: none;
-    color: #333333; }
-  .navbar__button {
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    padding: 18px 30px;
-    margin-left: 30px; }
+  padding: 8px 0px;
+}
+
+.navbar-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -4px;
+}
+
+.navbar__contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: right;
+}
+
+.navbar__address {
+  font-size: 13px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  color: #333333;
+}
+
+.navbar__phone {
+  font-size: 20px;
+  font-family: "Museo Sans bold";
+  font-weight: 900;
+  text-decoration: none;
+  color: #333333;
+}
+
+.navbar__button {
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  padding: 18px 30px;
+  margin-left: 30px;
+}
 
 main {
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+}
 
 .hero-block {
   display: -webkit-box;
@@ -123,9 +158,12 @@ main {
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .hero-block_padding {
-    padding-top: 44px; }
+          justify-content: space-between;
+}
+
+.hero-block_padding {
+  padding-top: 44px;
+}
 
 .hero-text {
   display: -webkit-box;
@@ -139,30 +177,688 @@ main {
           flex-direction: column;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
-          justify-content: flex-start; }
-  .hero-text__title {
-    padding: 30px 0;
-    margin-left: -2px;
-    font-size: 2.563em;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 55px;
-    color: #333333;
-    -ms-flex-item-align: end;
-        align-self: flex-end; }
-  .hero-text__subtitle {
-    padding: 20px 0;
-    font-size: 20px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 0;
-    color: #333333; }
+          justify-content: flex-start;
+}
+
+.hero-text__title {
+  padding: 30px 0;
+  margin-left: -2px;
+  font-size: 2.563em;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 55px;
+  color: #333333;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.hero-text__subtitle {
+  padding: 20px 0;
+  font-size: 20px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 0;
+  color: #333333;
+}
 
 .hero-list {
   margin: 0;
-  padding: 0; }
-  .hero-list_padding {
-    padding: 60px 0; }
+  padding: 0;
+}
+
+.hero-list_padding {
+  padding: 60px 0;
+}
+
+.hero-list__item {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.hero-list__item:last-child {
+  margin-bottom: 0px;
+}
+
+.hero-list__image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 40px;
+      flex-basis: 40px;
+  height: 40px;
+  border: 2px solid #ffd200;
+  border-radius: 50%;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.hero-list__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-left: 31px;
+  font-size: 14px;
+  font-weight: 400;
+  height: 40px;
+  line-height: 1.7;
+}
+
+.hero-list__space {
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+}
+
+.hero-image__image {
+  margin-right: -40px;
+}
+
+.offer-text {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offer-text__title {
+  margin: 0;
+  padding: 80px 0 5px 0;
+  font-size: 24px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 35px;
+  color: #333333;
+}
+
+.offer-text__subtitle {
+  width: 80%;
+  padding: 15px 0;
+  font-size: 16px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  color: #333333;
+}
+
+.offer-form_padding {
+  padding-top: 15px;
+}
+
+.offer-form__name {
+  padding-left: 25px;
+  margin-right: 10px;
+  font-size: 15px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.offer-form__phone {
+  padding-left: 30px;
+  font-size: 15px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.offer .button {
+  margin: 30px 0;
+  padding: 26px 101px;
+}
+
+.offer-submit__button {
+  padding: 0;
+  font-size: 16px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.offer-call {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offer-call__callback {
+  margin-top: -5px;
+  font-size: 15px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  line-height: 24px;
+  -ms-flex-preferred-size: 40%;
+      flex-basis: 40%;
+}
+
+.offer-usercall {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.offer-usercall__text {
+  margin-top: -5px;
+  padding-right: 100px;
+  font-size: 15px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.offer-usercall__phone {
+  font-size: 15px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 90px;
+}
+
+@media (max-width: 2560px) {
+  .offer {
+    background-image: url("../img/bg-image.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    position: relative;
+  }
+  .offer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fdfdfd;
+    width: 50%;
+    height: 100%;
+  }
+  .offer-block {
+    width: 50%;
+    position: relative;
+  }
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(122, 122, 122, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+}
+
+.modal_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-dialog {
+  border-radius: 5px;
+  border: 2px solid #ffe466;
+  background: #fdfdfd;
+  position: relative;
+  max-width: 400px;
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.modal-dialog__close {
+  border: none;
+  background-color: #fdfdfd;
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: red;
+  cursor: pointer;
+}
+
+.modal-dialog__message {
+  margin: auto;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.modal-dialog__information {
+  margin-top: -10px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 10px;
+  color: #7a7a7a;
+}
+
+.portfolio {
+  background: #f5f5f5 url("../img/portfolio-fon.jpg") repeat-y;
+  background-position: center left;
+  background-size: 50%;
+}
+
+.portfolio__title {
+  font-size: 30px;
+  font-family: "Museo Sans bold";
+  font-weight: 900;
+  line-height: 45px;
+  padding-bottom: 93px;
+  width: 700px;
+}
+
+.portfolio .slider__img {
+  margin: auto;
+  padding-bottom: 52px;
+}
+
+.portfolio .arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.portfolio .arrow__left {
+  padding: 15px;
+  padding-bottom: 96px;
+}
+
+.portfolio .arrow__right {
+  padding: 15px;
+}
+
+.price {
+  background-color: #fdfdfd;
+}
+
+.price__title {
+  max-width: 515px;
+  font-size: 30px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.price__subtitle {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Museo Sans Light";
+  font-weight: 100;
+  line-height: 45px;
+  padding: 38px 0 33px 0;
+}
+
+.price-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.price-image__item {
+  -webkit-box-shadow: 0 0 5px;
+          box-shadow: 0 0 5px;
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  margin: 15px 0;
+  max-width: 370px;
+  max-height: 410px;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price-image__image {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.price-image__text {
+  font-size: 18px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  padding-top: 37px;
+}
+
+.price-image__price {
+  padding-bottom: 42px;
+  font-size: 16px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.price-image__padding {
+  padding-bottom: 30px;
+}
+
+.brif {
+  background-image: url("../img/brif-bg.jpg"), url("../img/brif-bg-img.jpg");
+  background-position: left center, center right;
+  background-size: 50%, contain;
+  background-repeat: repeat-y, no-repeat;
+}
+
+.brif-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.brif__interview {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.brif__form {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.interview {
+  padding-right: 70px;
+  padding-bottom: 82px;
+}
+
+.interview__title {
+  margin-top: 8px;
+  margin-left: -1px;
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 33px;
+}
+
+.interview__subtitle {
+  display: inline-block;
+  padding: 22px 0;
+  font-size: 16px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  line-height: 45px;
+  margin-bottom: 43px;
+}
+
+.interview-list {
+  list-style: none;
+  padding: 0;
+  margin-left: -1px;
+}
+
+.interview-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 32px;
+}
+
+.interview-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.interview-list__counter {
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  width: 35px;
+  height: 35px;
+  border: 2px solid #333333;
+  border-radius: 50%;
+  min-width: 35px;
+  margin-right: 33px;
+  font-size: 14px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+}
+
+.interview-list__text {
+  max-width: 75%;
+  font-size: 18px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.form {
+  max-width: 368px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 2px;
+}
+
+.form__title {
+  padding: 5px 2px;
+  margin: 0;
+  font-size: 22px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  line-height: 33px;
+  text-align: center;
+}
+
+.form__subtitle {
+  padding: 31px 0;
+  font-size: 16px;
+  font-family: "Museo Sans Light";
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 11px;
+}
+
+.form-block {
+  margin-right: 6px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form-block__input {
+  max-height: 65px;
+  margin-bottom: 15px;
+  display: block;
+  width: 100%;
+  padding: 23px;
+}
+
+.form-block__button {
+  display: block;
+  width: 100%;
+  max-height: 70px;
+  height: 100%;
+  font-size: 16px;
+  line-height: 18px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  font-weight: 700;
+  padding: 30px 0;
+  margin: 15px 0;
+}
+
+.form-block__description {
+  font-size: 15px;
+  line-height: 50px;
+}
+
+.footer {
+  position: relative;
+}
+
+.map {
+  width: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contacts-space {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.contacts-block {
+  max-width: 368px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.contacts__title {
+  font-size: 22px;
+  line-height: 33px;
+  font-family: "Museo Sans bold";
+  font-weight: 400;
+  padding-top: 70px;
+  margin-bottom: 35px;
+}
+
+.contacts-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.contacts-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 35px;
+}
+
+.contacts-list__text {
+  -ms-flex-preferred-size: 90%;
+      flex-basis: 90%;
+  line-height: 23px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 990px;
+    margin: auto;
+  }
+  .hero-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .hero-text__title {
+    padding-top: 20px;
+  }
+  .hero-text__subtitle {
+    font-size: 20px;
+    font-family: "Museo Sans bold";
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+  }
+  .hero-image__image {
+    margin: 0;
+  }
+  .hero-list {
+    margin: 0;
+    padding: 0;
+  }
   .hero-list__item {
     list-style-type: none;
     display: -webkit-box;
@@ -171,9 +867,11 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-bottom: 30px; }
-    .hero-list__item:last-child {
-      margin-bottom: 0px; }
+    margin-bottom: 30px;
+  }
+  .hero-list__item:last-child {
+    margin-bottom: 30px;
+  }
   .hero-list__image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -191,7 +889,8 @@ main {
     border-radius: 50%;
     -webkit-box-flex: 0;
         -ms-flex-positive: 0;
-            flex-grow: 0; }
+            flex-grow: 0;
+  }
   .hero-list__text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -199,573 +898,61 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
     padding-left: 31px;
     font-size: 14px;
     font-weight: 400;
     height: 40px;
-    line-height: 1.7; }
-  .hero-list__space {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto; }
-
-.hero-image__image {
-  margin-right: -40px; }
-
-.offer-text {
-  width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  .offer-text__title {
-    margin: 0;
-    padding: 80px 0 5px 0;
-    font-size: 24px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 35px;
-    color: #333333; }
-  .offer-text__subtitle {
-    width: 80%;
-    padding: 15px 0;
-    font-size: 16px;
-    font-family: "Museo Sans Light";
-    font-weight: 400;
-    color: #333333; }
-
-.offer-form_padding {
-  padding-top: 15px; }
-
-.offer-form__name {
-  padding-left: 25px;
-  margin-right: 10px;
-  font-size: 15px;
-  font-family: "Museo Sans Light";
-  font-weight: 400;
-  line-height: 24px; }
-
-.offer-form__phone {
-  padding-left: 30px;
-  font-size: 15px;
-  font-family: "Museo Sans Light";
-  font-weight: 400;
-  line-height: 24px; }
-
-.offer .button {
-  margin: 30px 0;
-  padding: 26px 101px; }
-
-.offer-submit__button {
-  padding: 0;
-  font-size: 16px;
-  font-family: "Museo Sans bold";
-  font-weight: 400;
-  line-height: 18px; }
-
-.offer-call {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .offer-call__callback {
-    margin-top: -5px;
-    font-size: 15px;
-    font-family: "Museo Sans Light";
-    font-weight: 400;
-    line-height: 24px;
-    -ms-flex-preferred-size: 40%;
-        flex-basis: 40%; }
-
-.offer-usercall {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column; }
-  .offer-usercall__text {
-    margin-top: -5px;
-    padding-right: 100px;
-    font-size: 15px;
-    font-family: "Museo Sans Light";
-    font-weight: 400;
-    line-height: 24px; }
-  .offer-usercall__phone {
-    font-size: 15px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 24px;
-    padding-bottom: 90px; }
-
-@media (max-width: 2560px) {
-  .offer {
-    background-image: url("../img/bg-image.png");
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: contain;
-    position: relative; }
-    .offer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #fdfdfd;
-      width: 50%;
-      height: 100%; }
-    .offer-block {
-      width: 50%;
-      position: relative; } }
-
-.modal {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(122, 122, 122, 0.5);
-  position: fixed;
-  top: 0;
-  right: 0;
-  display: none; }
-  .modal_active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-  .modal-dialog {
-    border-radius: 5px;
-    border: 2px solid #ffe466;
-    background: #fdfdfd;
-    position: relative;
-    max-width: 400px;
-    width: 90%;
-    margin: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .modal-dialog__close {
-      border: none;
-      background-color: #fdfdfd;
-      position: absolute;
-      top: 0;
-      right: 0;
-      color: red;
-      cursor: pointer; }
-    .modal-dialog__message {
-      margin: auto;
-      font-family: "Museo Sans bold";
-      font-weight: 400;
-      padding: 20px;
-      font-size: 20px; }
-    .modal-dialog__information {
-      margin-top: -10px;
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      font-size: 10px;
-      color: #7a7a7a; }
-
-.portfolio {
-  background: #f5f5f5 url("../img/portfolio-fon.jpg") repeat-y;
-  background-position: center left;
-  background-size: 50%; }
-  .portfolio__title {
-    font-size: 30px;
-    font-family: "Museo Sans bold";
-    font-weight: 900;
-    line-height: 45px;
-    padding-bottom: 93px;
-    width: 700px; }
-  .portfolio .slider__img {
-    margin: auto;
-    padding-bottom: 52px; }
-  .portfolio .arrow {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center; }
-    .portfolio .arrow__left {
-      padding: 15px;
-      padding-bottom: 96px; }
-    .portfolio .arrow__right {
-      padding: 15px; }
-
-.price {
-  background-color: #fdfdfd; }
-  .price__title {
-    max-width: 515px;
-    font-size: 30px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 45px; }
-  .price__subtitle {
-    display: block;
-    text-align: center;
-    font-size: 20px;
-    font-family: "Museo Sans Light";
-    font-weight: 100;
-    line-height: 45px;
-    padding: 38px 0 33px 0; }
-  .price-image {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    .price-image__item {
-      -webkit-box-shadow: 0 0 5px;
-              box-shadow: 0 0 5px;
-      -ms-flex-preferred-size: 30%;
-          flex-basis: 30%;
-      margin: 15px 0;
-      max-width: 370px;
-      max-height: 410px;
-      width: 100%;
-      height: 100%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center; }
-    .price-image__image {
-      padding: 0;
-      margin: 0;
-      width: 100%; }
-    .price-image__text {
-      font-size: 18px;
-      font-family: "Museo Sans Light";
-      font-weight: 400;
-      padding-top: 37px; }
-    .price-image__price {
-      padding-bottom: 42px;
-      font-size: 16px;
-      font-family: "Museo Sans bold";
-      font-weight: 400;
-      padding-top: 32px;
-      text-align: center; }
-    .price-image__padding {
-      padding-bottom: 30px; }
-
-.brif {
-  background-image: url("../img/brif-bg.jpg"), url("../img/brif-bg-img.jpg");
-  background-position: left center, center right;
-  background-size: 50%, contain;
-  background-repeat: repeat-y, no-repeat; }
-  .brif-block {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  .brif__interview {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
-  .brif__form {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
-
-.interview {
-  padding-right: 70px;
-  padding-bottom: 82px; }
-  .interview__title {
-    margin-top: 8px;
-    margin-left: -1px;
-    margin-bottom: 8px;
-    font-size: 22px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 33px; }
-  .interview__subtitle {
-    display: inline-block;
-    padding: 22px 0;
-    font-size: 16px;
-    font-family: "Museo Sans Light";
-    font-weight: 400;
-    line-height: 45px;
-    margin-bottom: 43px; }
-  .interview-list {
-    list-style: none;
-    padding: 0;
-    margin-left: -1px; }
-    .interview-list__item {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      margin-bottom: 32px; }
-      .interview-list__item:last-child {
-        margin-bottom: 0; }
-    .interview-list__counter {
-      display: inline-block;
-      text-align: center;
-      line-height: 35px;
-      width: 35px;
-      height: 35px;
-      border: 2px solid #333333;
-      border-radius: 50%;
-      min-width: 35px;
-      margin-right: 33px;
-      font-size: 14px;
-      font-family: "Museo Sans bold";
-      font-weight: 400; }
-    .interview-list__text {
-      max-width: 75%;
-      font-size: 18px;
-      font-family: "Museo Sans bold";
-      font-weight: 400;
-      line-height: 20px; }
-
-.form {
-  max-width: 368px;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 2px; }
-  .form__title {
-    padding: 5px 2px;
-    margin: 0;
-    font-size: 22px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 33px;
-    text-align: center; }
-  .form__subtitle {
-    padding: 31px 0;
-    font-size: 16px;
-    font-family: "Museo Sans Light";
-    font-weight: 400;
-    line-height: 35px;
-    margin-bottom: 11px; }
-  .form-block {
-    margin-right: 6px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .form-block__input {
-      max-height: 65px;
-      margin-bottom: 15px;
-      display: block;
-      width: 100%;
-      padding: 23px; }
-    .form-block__button {
-      display: block;
-      width: 100%;
-      max-height: 70px;
-      height: 100%;
-      font-size: 16px;
-      line-height: 18px;
-      font-family: "Museo Sans bold";
-      font-weight: 400;
-      font-weight: 700;
-      padding: 30px 0;
-      margin: 15px 0; }
-    .form-block__description {
-      font-size: 15px;
-      line-height: 50px; }
-
-.footer {
-  position: relative; }
-
-.map {
-  width: 50%;
-  position: absolute;
-  left: 0;
-  top: 0; }
-
-.contacts {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between; }
-  .contacts-space {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
-  .contacts-block {
-    max-width: 368px;
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%; }
-  .contacts__title {
-    font-size: 22px;
-    line-height: 33px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    padding-top: 70px;
-    margin-bottom: 95px; }
-  .contacts-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    list-style: none;
-    padding: 0; }
-    .contacts-list__item {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      margin-bottom: 35px; }
-    .contacts-list__text {
-      -ms-flex-preferred-size: 90%;
-          flex-basis: 90%;
-      line-height: 23px; }
-
-@media (max-width: 1200px) {
-  .container {
-    width: 990px;
-    margin: auto; }
-  .hero-text {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-    .hero-text__title {
-      padding-top: 20px; }
-    .hero-text__subtitle {
-      font-size: 20px;
-      font-family: "Museo Sans bold";
-      font-weight: 400;
-      line-height: 1;
-      color: #333333; }
-  .hero-image__image {
-    margin: 0; }
-  .hero-list {
-    margin: 0;
-    padding: 0; }
-    .hero-list__item {
-      list-style-type: none;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      margin-bottom: 30px; }
-      .hero-list__item:last-child {
-        margin-bottom: 30px; }
-    .hero-list__image {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -ms-flex-preferred-size: 40px;
-          flex-basis: 40px;
-      height: 40px;
-      border: 2px solid #ffd200;
-      border-radius: 50%;
-      -webkit-box-flex: 0;
-          -ms-flex-positive: 0;
-              flex-grow: 0; }
-    .hero-list__text {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -ms-flex-preferred-size: 70%;
-          flex-basis: 70%;
-      padding-left: 31px;
-      font-size: 14px;
-      font-weight: 400;
-      height: 40px;
-      line-height: 1.6; }
+    line-height: 1.6;
+  }
   .offer {
     background-image: url("../img/bg-image.png");
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
-    position: relative; }
-    .offer::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #fdfdfd;
-      width: 50%;
-      height: 100%; }
-    .offer-text {
-      width: 80%; }
-    .offer .button {
-      padding: 25px; }
-    .offer-submit {
-      width: 90%; }
-    .offer-form {
-      width: 90%;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
+    position: relative;
+  }
+  .offer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fdfdfd;
+    width: 50%;
+    height: 100%;
+  }
+  .offer-text {
+    width: 80%;
+  }
+  .offer .button {
+    padding: 25px;
+  }
+  .offer-submit {
+    width: 90%;
+  }
+  .offer-form {
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .input {
     border-radius: 10px;
     border: 1px solid #dddddd;
     height: 4em;
-    width: 13.35em; } }
+    width: 13.35em;
+  }
+}
 
 @media (max-width: 992px) {
   .container {
     width: 95%;
-    margin: 0px 10px; }
+    margin: 0px 10px;
+  }
   .hero-block {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -775,7 +962,8 @@ main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+  }
   .hero-text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -783,71 +971,83 @@ main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-    .hero-text__title {
-      padding-top: 20px; }
-    .hero-text__subtitle {
-      padding: 30px 0;
-      font-size: 20px;
-      font-family: "Museo Sans bold";
-      font-weight: 400;
-      line-height: 1;
-      color: #333333; }
+            flex-direction: column;
+  }
+  .hero-text__title {
+    padding-top: 20px;
+  }
+  .hero-text__subtitle {
+    padding: 30px 0;
+    font-size: 20px;
+    font-family: "Museo Sans bold";
+    font-weight: 400;
+    line-height: 1;
+    color: #333333;
+  }
   .hero-image__image {
-    margin: 0; }
+    margin: 0;
+  }
   .hero-list {
     margin: 0;
-    padding: 0; }
-    .hero-list__item {
-      list-style-type: none;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      margin: 30px 0; }
-      .hero-list__item:last-child {
-        margin-bottom: 30px; }
-    .hero-list__image {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -webkit-box-pack: center;
-          -ms-flex-pack: center;
-              justify-content: center;
-      -ms-flex-preferred-size: 40px;
-          flex-basis: 40px;
-      height: 40px;
-      border: 2px solid #ffd200;
-      border-radius: 50%;
-      -webkit-box-flex: 0;
-          -ms-flex-positive: 0;
-              flex-grow: 0; }
-    .hero-list__text {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
-      -ms-flex-preferred-size: 70%;
-          flex-basis: 70%;
-      padding-left: 31px;
-      font-size: 14px;
-      font-weight: 400;
-      height: 40px;
-      line-height: 1.6; } }
+    padding: 0;
+  }
+  .hero-list__item {
+    list-style-type: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 30px 0;
+  }
+  .hero-list__item:last-child {
+    margin-bottom: 30px;
+  }
+  .hero-list__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-preferred-size: 40px;
+        flex-basis: 40px;
+    height: 40px;
+    border: 2px solid #ffd200;
+    border-radius: 50%;
+    -webkit-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+  }
+  .hero-list__text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-preferred-size: 70%;
+        flex-basis: 70%;
+    padding-left: 31px;
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 1.6;
+  }
+}
 
 @media (max-width: 768px) {
   .container {
     width: 95%;
-    margin: 0px 10px; }
+    margin: 0px 10px;
+  }
   .offer-text {
-    width: 100%; }
+    width: 100%;
+  }
   .offer-form {
     width: 100%;
     display: -webkit-box;
@@ -856,227 +1056,297 @@ main {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-    .offer-form__name {
-      width: 100%;
-      margin: 10px 0; }
-    .offer-form__phone {
-      width: 100%;
-      margin: 10px 0;
-      margin-right: 10px; }
+            flex-direction: column;
+  }
+  .offer-form__name {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .offer-form__phone {
+    width: 100%;
+    margin: 10px 0;
+    margin-right: 10px;
+  }
   .offer .button {
     width: 100%;
     margin: 10px 0;
-    padding: 25px; }
+    padding: 25px;
+  }
   .offer-call {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-    .offer-call__callback {
-      width: 110%; }
+            flex-direction: column;
+  }
+  .offer-call__callback {
+    width: 110%;
+  }
   .offer-usercall {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 0; }
-    .offer-usercall__text {
-      padding: unset;
-      margin-right: 10px; }
+    padding: 0;
+  }
+  .offer-usercall__text {
+    padding: unset;
+    margin-right: 10px;
+  }
   .portfolio__tite {
-    width: unset; } }
+    width: unset;
+  }
+}
 
 @media (max-width: 567px) {
   .container {
     width: 95%;
-    margin: 0px 10px; }
+    margin: 0px 10px;
+  }
   .navbar__contacts {
-    display: none; }
+    display: none;
+  }
   .hero-block {
-    max-width: 90%; }
+    max-width: 90%;
+  }
   .hero-image__image {
-    max-width: 90%; }
+    max-width: 90%;
+  }
   .offer {
     background: #fdfdfd;
     padding: 0;
-    margin: 0; }
-    .offer-block {
-      width: 100%; }
-    .offer-text {
-      width: 95%; }
-      .offer-text__title {
-        padding-top: 50px;
-        padding-left: 3px;
-        margin: 0;
-        font-size: 18px;
-        font-family: "Museo Sans bold";
-        font-weight: 900;
-        line-height: initial; }
-      .offer-text__subtitle {
-        font-size: 14px;
-        padding: 10px 0; }
-    .offer-form_padding {
-      padding-top: 15px; }
-    .offer-form__name {
-      width: 97%;
-      padding: 32px 22px;
-      margin: 2px 0; }
-    .offer-form__phone {
-      width: 97%;
-      padding: 32px 22px;
-      margin: 6px 0; }
-    .offer .button {
-      width: 97%;
-      padding: 25px;
-      margin: 3px 0; }
-    .offer-submit {
-      width: 95%; }
-      .offer-submit__button {
-        width: 270px;
-        display: inherit;
-        font-size: 14px; }
-    .offer-call__callback {
-      padding: 20px 7px 0 7px; }
-    .offer-usercall__text {
-      padding-top: 20px; }
-    .offer-usercall__phone {
-      padding-top: 20px; }
+    margin: 0;
+  }
+  .offer-block {
+    width: 100%;
+  }
+  .offer-text {
+    width: 95%;
+  }
+  .offer-text__title {
+    padding-top: 50px;
+    padding-left: 3px;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Museo Sans bold";
+    font-weight: 900;
+    line-height: initial;
+  }
+  .offer-text__subtitle {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .offer-form_padding {
+    padding-top: 15px;
+  }
+  .offer-form__name {
+    width: 97%;
+    padding: 32px 22px;
+    margin: 2px 0;
+  }
+  .offer-form__phone {
+    width: 97%;
+    padding: 32px 22px;
+    margin: 6px 0;
+  }
+  .offer .button {
+    width: 97%;
+    padding: 25px;
+    margin: 3px 0;
+  }
+  .offer-submit {
+    width: 95%;
+  }
+  .offer-submit__button {
+    width: 270px;
+    display: inherit;
+    font-size: 14px;
+  }
+  .offer-call__callback {
+    padding: 20px 7px 0 7px;
+  }
+  .offer-usercall__text {
+    padding-top: 20px;
+  }
+  .offer-usercall__phone {
+    padding-top: 20px;
+  }
   .portfolio__tite {
-    font-size: 18px; } }
+    font-size: 18px;
+  }
+}
 
 @media (max-width: 405px) {
   .offer-call__callback {
-    width: 70%; } }
+    width: 70%;
+  }
+}
 
 @media (max-width: 320px) {
   .container {
     max-width: 285px;
     width: 100%;
-    margin: auto; }
+    margin: auto;
+  }
   .navbar {
-    padding: 14px 0px; }
-    .navbar-block {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start; }
-    .navbar img {
-      padding-left: -13px;
-      padding-top: 2px; }
-    .navbar__button {
-      border: none;
-      border-radius: 5px;
-      padding: 15px 25px;
-      font-size: 10px;
-      font-weight: 550;
-      margin: 0; }
-    .navbar__contacts {
-      display: none; }
-    .navbar__logo {
-      width: 50%; }
-      .navbar__logo img {
-        width: 65%; }
+    padding: 14px 0px;
+  }
+  .navbar-block {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .navbar img {
+    padding-left: -13px;
+    padding-top: 2px;
+  }
+  .navbar__button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 10px;
+    font-weight: 550;
+    margin: 0;
+  }
+  .navbar__contacts {
+    display: none;
+  }
+  .navbar__logo {
+    width: 50%;
+  }
+  .navbar__logo img {
+    width: 65%;
+  }
   .hero-block {
-    max-width: 100%; }
-    .hero-block_padding {
-      padding-bottom: 25px; }
+    max-width: 100%;
+  }
+  .hero-block_padding {
+    padding-bottom: 25px;
+  }
   .hero-text__title {
     margin-top: -3px;
     padding: 0px 0px 0px 7px;
     font-size: 24px;
-    line-height: initial; }
+    line-height: initial;
+  }
   .hero-text__subtitle {
     font-size: 16px;
     padding: 8px 0px 0px 6px;
     width: 85%;
-    line-height: 1.2; }
+    line-height: 1.2;
+  }
   .hero-list_padding {
     margin-top: -3px;
-    padding: 10px 3px; }
+    padding: 10px 3px;
+  }
   .hero-list__item {
-    margin: 20px 0px 20px 0px; }
+    margin: 20px 0px 20px 0px;
+  }
   .hero-list__text {
     font-size: 12px;
     -ms-flex-preferred-size: 80%;
         flex-basis: 80%;
     padding-left: 15px;
-    line-height: 1.3; }
+    line-height: 1.3;
+  }
   .hero-image {
-    width: 102%; }
-    .hero-image__image {
-      margin: 0;
-      max-width: 100%; }
+    width: 102%;
+  }
+  .hero-image__image {
+    margin: 0;
+    max-width: 100%;
+  }
   .offer {
     background: #fdfdfd;
     padding: 0;
-    margin: 0; }
-    .offer-block {
-      width: 100%; }
-    .offer-text {
-      width: 95%; }
-      .offer-text__title {
-        padding-top: 50px;
-        padding-left: 3px;
-        margin: 0;
-        font-size: 18px;
-        font-family: "Museo Sans bold";
-        font-weight: 900;
-        line-height: initial; }
-      .offer-text__subtitle {
-        font-size: 14px;
-        padding: 10px 0; }
-    .offer-form_padding {
-      padding-top: 15px; }
-    .offer-form__name {
-      width: 97%;
-      padding: 32px 22px;
-      margin: 2px 0; }
-    .offer-form__phone {
-      width: 97%;
-      padding: 32px 22px;
-      margin: 6px 0; }
-    .offer .button {
-      width: 97%;
-      padding: 17px;
-      margin: 3px 0; }
-    .offer-submit {
-      width: 97%; }
-      .offer-submit__button {
-        width: 200px;
-        display: inherit;
-        font-size: 14px; }
-    .offer-call {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      .offer-call__callback {
-        width: 87%;
-        padding: 23px 7px 5px 7px; }
-    .offer-usercall {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-          -ms-flex-direction: column;
-              flex-direction: column; }
-      .offer-usercall__text {
-        margin: 0;
-        padding: 3px 7px 0px 7px; }
-      .offer-usercall__phone {
-        margin: 0;
-        padding: 0px 6px 50px 6px; }
+    margin: 0;
+  }
+  .offer-block {
+    width: 100%;
+  }
+  .offer-text {
+    width: 95%;
+  }
+  .offer-text__title {
+    padding-top: 50px;
+    padding-left: 3px;
+    margin: 0;
+    font-size: 18px;
+    font-family: "Museo Sans bold";
+    font-weight: 900;
+    line-height: initial;
+  }
+  .offer-text__subtitle {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+  .offer-form_padding {
+    padding-top: 15px;
+  }
+  .offer-form__name {
+    width: 97%;
+    padding: 32px 22px;
+    margin: 2px 0;
+  }
+  .offer-form__phone {
+    width: 97%;
+    padding: 32px 22px;
+    margin: 6px 0;
+  }
+  .offer .button {
+    width: 97%;
+    padding: 17px;
+    margin: 3px 0;
+  }
+  .offer-submit {
+    width: 97%;
+  }
+  .offer-submit__button {
+    width: 200px;
+    display: inherit;
+    font-size: 14px;
+  }
+  .offer-call {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer-call__callback {
+    width: 87%;
+    padding: 23px 7px 5px 7px;
+  }
+  .offer-usercall {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer-usercall__text {
+    margin: 0;
+    padding: 3px 7px 0px 7px;
+  }
+  .offer-usercall__phone {
+    margin: 0;
+    padding: 0px 6px 50px 6px;
+  }
   .section {
-    padding-top: 40px; }
+    padding-top: 40px;
+  }
   .portfolio__title {
     width: 90%;
     font-size: 18px;
     line-height: 1.23em;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+  }
   .portfolio .slider__img {
     width: 85%;
-    padding-bottom: 33px; }
+    padding-bottom: 33px;
+  }
   .portfolio .arrow__left {
-    padding-bottom: 61px; } }
+    padding-bottom: 61px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
