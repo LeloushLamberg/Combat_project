@@ -48,6 +48,29 @@ $(document).ready (function(){
   });
   // end sliders
   // start validation form
+   $("#offer-form").validate({
+     rules: {
+       username: {
+         required: true,
+         minlength: 2,
+         maxlength: 15
+       },
+       userphone: {
+         required: true,
+         minlength: 10
+       }
+     },
+     messages: {
+       username: {
+         required: "Введите своё имя",
+         minlength: "Введите полное имя"
+       },
+       userphone: {
+         required: "Введите свой телефон",
+         minlength: "Мало цифр. Добавьте код города"
+       }
+     }
+   });
   $("#brif-form").validate({
     rules: {
       username: {
@@ -81,6 +104,7 @@ $(document).ready (function(){
   });
   // end validation form
   $("#phone").mask("8 (999) 999-9999");
+  $("#userphone").mask("8 (999) 999-9999");
 });
 
 // start wow

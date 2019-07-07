@@ -54,6 +54,10 @@ a {
   cursor: pointer;
 }
 
+.button:active, .button:focus {
+  outline: none;
+}
+
 .section {
   padding: 90px 0 0 0;
 }
@@ -575,6 +579,14 @@ main {
   font-weight: 400;
   padding-top: 32px;
   text-align: center;
+}
+
+.price-image__price:after {
+  display: block;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #ffd200;
 }
 
 .price-image__padding {
