@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/LeloushLamberg/Combat_project#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-minify": "^3.1.0"
   },
   "dependencies": {
     "jquery": "^3.4.1"
