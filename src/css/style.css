@@ -421,6 +421,16 @@ a {
   width: 16.000em;
 }
 
+.label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 input {
   outline: none;
 }
@@ -4050,6 +4060,18 @@ main {
   font-family: "Museo Sans Light";
   font-weight: 400;
   color: #333333;
+}
+
+.offer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .offer-form_padding {
