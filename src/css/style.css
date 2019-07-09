@@ -4967,7 +4967,7 @@ main {
 
 @media (max-width: 768px) {
   .container {
-    width: 95%;
+    width: 90%;
     margin: 0px 10px;
   }
   .offer-text {
@@ -5436,6 +5436,9 @@ main {
   .offer-usercall__phone {
     margin: 0;
     padding: 0px 6px 50px 6px;
+  }
+  .button {
+    padding: unset;
   }
   .portfolio {
     background: #f5f5f5;
