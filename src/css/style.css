@@ -312,14 +312,16 @@ template {
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.eot");
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.woff") format("woff"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-300.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-display: auto; }
 
 @font-face {
   font-family: "Museo Sans bold";
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.eot");
   src: url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.eot?#iefix") format("embedded-opentype"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.woff") format("woff"), url("../fonts/Museo_sans_cyrl/MuseoSansCyrl-700.ttf") format("truetype");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  font-display: auto; }
 
 * {
   -webkit-box-sizing: border-box;
@@ -3934,7 +3936,11 @@ main {
     .offer-usercall__phone {
       padding-top: 20px; }
   .portfolio__tite {
-    font-size: 18px; } }
+    font-size: 18px; }
+  .price-image__item {
+    max-width: 320px; }
+  .price-image__image {
+    max-width: 320px; } }
 
 @media (max-width: 405px) {
   .offer-call__callback {
@@ -4069,5 +4075,13 @@ main {
     width: 85%;
     padding-bottom: 33px; }
   .portfolio .arrow__left {
-    padding-bottom: 61px; } }
+    padding-bottom: 61px; }
+  .price img {
+    width: 320px; }
+  .price .wow {
+    width: 320px; }
+  .price-image__item {
+    max-width: 320px; }
+  .price-image__image {
+    max-width: 320px; } }
 /*# sourceMappingURL=style.css.map */
