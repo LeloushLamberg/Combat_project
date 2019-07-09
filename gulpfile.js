@@ -37,7 +37,7 @@ gulp.task('tinypng', function (done) {
       .pipe(tinyPNG({
           key: 'D47E7DbIJxCb8zKUnafAgiZKFBjOXMC4'
       }))
-      .pipe(gulp.dest('dist/imag/'));
+      .pipe(gulp.dest('dist/img/'));
       done()
 });
 gulp.task('default', gulp.series('minify-css','minify-js', 'minify-html', 'move-fonts', 'tinypng', function (done){
