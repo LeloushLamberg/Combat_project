@@ -1,4 +1,9 @@
 @media (max-width: 320px)
+  .section
+    padding-top: 40px
+    &-title
+      max-width: 300px
+      width: 90%
   .container
     max-width: 285px
     width: 100%
@@ -114,10 +119,12 @@
       &__phone
         margin: 0
         padding: 0px 6px 50px 6px
-  .section
-    padding-top: 40px
+  
+    
   .portfolio
+    background: $darck-bgc
     &__title
+      max-width: 300px
       width: 90%
       font-size: 18px
       line-height: 1.23em
@@ -129,15 +136,53 @@
       &__left
         padding-bottom: 61px 
   .price
-    img
-      width: 320px
-    .wow 
-      width: 320px
     &-image
       &__item
-        max-width: 320px
+        margin-right: 10px
+        max-width: 285px
       &__image
-        max-width: 320px
+        max-width: 285px 
+    img
+      max-width: 285px
+    .wow 
+      max-width: 285px
+  
 
+  .brif
+    background-image: url('../img/brif-bg.jpg'), url('../img/brif-bg-img.jpg')
+    background-position: left top, left bottom
+    background-size: 100% 50%, 100% 50%
+    background-repeat: no-repeat, no-repeat
+    &-block
+      flex-direction: column
+    .interview
+      padding-right: 70px
+      padding-bottom: 82px
+      &__title
+        padding: 6px 0
+        font-size: 18px
+      &__subtitle
+        font-size: 14px
+        margin: 0
+  .form
+    &-block 
+      &__input
+        width: inherit  
+  .footer
+    position: relative
+  .map
+    width: 100%
+    position: absolute
+    top: 450px
+    left: 0
+    
+  .contacts
+    background: $light-bgc
 
-
+    &-space  
+      flex-basis: 0%
+    &-block
+      flex-basis: 90%
+    &__title
+      padding: unset
+      font-size: 18px
