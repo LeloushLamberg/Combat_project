@@ -410,6 +410,7 @@ a {
 .section-title {
   margin: auto;
   text-align: center;
+  width: 500px;
 }
 
 .input {
@@ -4224,7 +4225,6 @@ main {
   font-weight: 900;
   line-height: 45px;
   padding-bottom: 93px;
-  width: 700px;
 }
 
 .portfolio .slider__img {
@@ -4286,7 +4286,7 @@ main {
 .price-image__item {
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
-  margin: 15px 0;
+  margin: 15px auto;
   max-width: 370px;
   max-height: 410px;
   width: 100%;
@@ -4706,12 +4706,6 @@ main {
   .offer-text {
     width: 80%;
   }
-  .offer .button {
-    padding: 25px;
-  }
-  .offer-submit {
-    width: 90%;
-  }
   .offer-form {
     width: 90%;
     display: -webkit-box;
@@ -4720,12 +4714,67 @@ main {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .input {
     border-radius: 10px;
     border: 1px solid #dddddd;
     height: 4em;
     width: 13.35em;
+  }
+  .input-text {
+    width: 100%;
+  }
+  .input-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .input-form__name {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .input-form__phone {
+    width: 100%;
+    margin: 10px 0;
+    margin-right: 10px;
+  }
+  .button {
+    margin: 30px 0;
+    padding: 26px 101px;
+  }
+  -submit__button {
+    padding: 0;
+    font-size: 16px;
+    font-family: "Museo Sans bold";
+    font-weight: 400;
+    line-height: 18px;
+  }
+  -submit-call {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  -submit-call__callback {
+    width: 110%;
+  }
+  -submit-usercall {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+  }
+  -submit-usercall__text {
+    padding: unset;
+    margin-right: 10px;
   }
 }
 
@@ -4819,6 +4868,75 @@ main {
     height: 40px;
     line-height: 1.6;
   }
+  .offer-text {
+    width: 100%;
+  }
+  .offer-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer-form__name {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .offer-form__phone {
+    width: 100%;
+    margin: 10px 0;
+    margin-right: 10px;
+  }
+  .offer .button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 25px;
+  }
+  .offer-call {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .offer-call__callback {
+    width: 110%;
+  }
+  .offer-usercall {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0;
+  }
+  .offer-usercall__text {
+    padding: unset;
+    margin-right: 10px;
+  }
+  .portfolio__tite {
+    font-size: 30px;
+    width: 500px;
+  }
+  .price {
+    text-align: center;
+  }
+  .brif__form {
+    margin-left: 50px;
+  }
+  .brif .form-block__input {
+    display: block;
+    width: 100%;
+  }
+  .footer .contacts-space {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+  }
+  .footer .contacts-block {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -4874,7 +4992,26 @@ main {
     margin-right: 10px;
   }
   .portfolio__tite {
-    width: unset;
+    font-size: 30px;
+    width: 500px;
+  }
+  .price {
+    text-align: center;
+  }
+  .brif__form {
+    margin-left: 50px;
+  }
+  .brif .form-block__input {
+    display: block;
+    width: 100%;
+  }
+  .footer .contacts-space {
+    -ms-flex-preferred-size: 60%;
+        flex-basis: 60%;
+  }
+  .footer .contacts-block {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
   }
 }
 
