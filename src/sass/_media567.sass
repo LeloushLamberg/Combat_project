@@ -2,20 +2,69 @@
   .section
     padding-top: 40px 
     &-title
+      font-size: 18px
+      font-weight: 400
+      +bold 
       max-width: 500px
       width: 90%
   .container
     width: 95%
     margin: 0px 10px
   .navbar
+    padding: 14px 0px
+    &-block
+      justify-content: flex-start
+    img
+      padding-left: -13px
+      padding-top: 2px
+    &__button
+      border: none
+      border-radius: 5px
+
+      padding: 15px 25px
+      font-size: 10px
+      font-weight: 550
+      margin: 0
     &__contacts
       display: none
+    &__logo
+      width: 50%
+      img
+        width: 65%
   .hero
     &-block
-      max-width: 90%
+      max-width: 100%
+      &_padding
+        padding-bottom: 25px  
+    &-text
+      &__title
+        margin-top: -3px
+        padding: 0px 0px 0px 7px
+        font-size: 24px
+        line-height: initial
+        
+      &__subtitle
+        font-size: 16px
+        padding: 8px 0px 0px 6px
+        width: 85%
+        line-height: 1.2
+    &-list
+      &_padding
+        margin-top: -3px
+        padding: 10px 3px 
+      &__item
+        margin: 20px 0px 20px 0px
+      
+      &__text
+        font-size: 12px
+        flex-basis: 80%
+        padding-left: 15px 
+        line-height: 1.3
     &-image
+      width: 102%
       &__image
-        max-width: 90%
+        margin: 0
+        max-width: 100% 
   .offer   
     background: $light-bgc
     padding: 0
@@ -69,7 +118,8 @@
   .portfolio
     background: $darck-bgc
     &__tite
-      font-size: 18px
+      +bold 
+      font-size: 18px 
       max-width: 500px
       width: 90%
   .price
