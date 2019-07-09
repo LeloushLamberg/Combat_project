@@ -3881,9 +3881,11 @@ main {
     width: unset; } }
 
 @media (max-width: 567px) {
-  .section-title {
-    max-width: 500px;
-    width: 90%; }
+  .section {
+    padding-top: 40px; }
+    .section-title {
+      max-width: 500px;
+      width: 90%; }
   .container {
     width: 95%;
     margin: 0px 10px; }
@@ -3933,7 +3935,8 @@ main {
         display: inherit;
         font-size: 14px; }
     .offer-call__callback {
-      padding: 20px 7px 0 7px; }
+      padding: 20px 7px 0 7px;
+      width: 90%; }
     .offer-usercall__text {
       padding-top: 20px; }
     .offer-usercall__phone {
@@ -3949,16 +3952,58 @@ main {
   .price .wow {
     width: 320px; }
   .price-image__item {
+    margin: auto;
+    margin-bottom: 30px;
     max-width: 320px; }
   .price-image__image {
     max-width: 320px; }
+  .price__title {
+    padding: unset;
+    font-size: 18px; }
+  .price__subtitle {
+    padding: 10px 0;
+    font-size: 14px; }
   .brif {
-    background: none; }
+    background-image: url("../img/brif-bg.jpg"), url("../img/brif-bg-img.jpg");
+    background-position: left top, left bottom;
+    background-size: 100% 50%, 100% 50%;
+    background-repeat: no-repeat, no-repeat; }
     .brif-block {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
-              flex-direction: column; } }
+              flex-direction: column; }
+    .brif .interview {
+      padding-right: 10px;
+      padding-bottom: 82px; }
+      .brif .interview__title {
+        padding: 6px 0;
+        font-size: 18px; }
+      .brif .interview__subtitle {
+        font-size: 14px;
+        margin: 0; }
+    .brif__form {
+      margin: auto; }
+  .form-block__input {
+    width: inherit; }
+  .footer {
+    position: relative; }
+  .map {
+    width: 100%;
+    position: absolute;
+    top: 450px;
+    left: 0; }
+  .contacts {
+    background: #fdfdfd; }
+    .contacts-space {
+      -ms-flex-preferred-size: 0%;
+          flex-basis: 0%; }
+    .contacts-block {
+      -ms-flex-preferred-size: 90%;
+          flex-basis: 90%; }
+    .contacts__title {
+      padding: unset;
+      font-size: 18px; } }
 
 @media (max-width: 405px) {
   .offer-call__callback {
@@ -4120,7 +4165,7 @@ main {
           -ms-flex-direction: column;
               flex-direction: column; }
     .brif .interview {
-      padding-right: 70px;
+      padding-right: 10px;
       padding-bottom: 82px; }
       .brif .interview__title {
         padding: 6px 0;

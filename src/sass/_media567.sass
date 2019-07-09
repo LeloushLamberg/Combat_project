@@ -1,5 +1,6 @@
 @media (max-width: 567px)
   .section
+    padding-top: 40px 
     &-title
       max-width: 500px
       width: 90%
@@ -58,7 +59,8 @@
         font-size: 14px
     &-call
       &__callback
-        padding: 20px 7px 0 7px  
+        padding: 20px 7px 0 7px
+        width: 90%  
     &-usercall
       &__text
         padding-top: 20px
@@ -77,15 +79,62 @@
       width: 320px
     &-image
       &__item
+        margin: auto
+        margin-bottom: 30px
         max-width: 320px
       &__image
         max-width: 320px
+    &__title
+      padding: unset
+      font-size: 18px
+    &__subtitle
+      padding: 10px 0
+      font-size: 14px
+      
+
   .brif
-    background: none
+    background-image: url('../img/brif-bg.jpg'), url('../img/brif-bg-img.jpg')
+    background-position: left top, left bottom
+    background-size: 100% 50%, 100% 50%
+    background-repeat: no-repeat, no-repeat
     &-block
       flex-direction: column
-      
-          
+    .interview
+      padding-right: 10px
+      padding-bottom: 82px
+      &__title
+        padding: 6px 0
+        font-size: 18px
+      &__subtitle
+        font-size: 14px
+        margin: 0
+    &__form
+      margin: auto
+  .form
+
+    &-block 
+      &__input
+        width: inherit  
+        
+  .footer
+    position: relative
+  .map
+    width: 100%
+    position: absolute
+    top: 450px
+    left: 0
+    
+  .contacts
+    background: $light-bgc
+
+    &-space  
+      flex-basis: 0%
+    &-block
+      flex-basis: 90%
+    &__title
+      padding: unset
+      font-size: 18px
+
 @media (max-width: 405px)
   .offer   
     &-call
