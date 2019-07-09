@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const cleanCSS = require('gulp-clean-css')
 const minify = require('gulp-minify');
 const htmlmin = require('gulp-htmlmin');
-const tinyPNG = require('gulp-tinypng-compress');
+// const tinyPNG = require('gulp-tinypng-compress');
 
 
 gulp.task('minify-css', function(done){
@@ -34,9 +34,9 @@ done()
 });
 gulp.task('tinypng', function (done) {
   gulp.src('./src/img/*.{png,jpg,jpeg}')
-      .pipe(tinyPNG({
-          key: 'D47E7DbIJxCb8zKUnafAgiZKFBjOXMC4'
-      }))
+      // .pipe(tinyPNG({
+          // key: 'D47E7DbIJxCb8zKUnafAgiZKFBjOXMC4'
+      // }))
       .pipe(gulp.dest('dist/img/'));
       done()
 });
