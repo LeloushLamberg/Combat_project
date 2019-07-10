@@ -3695,6 +3695,51 @@ main {
   .container {
     width: 990px;
     margin: auto; }
+  .navbar {
+    padding: 8px 0px; }
+    .navbar-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+    .navbar__info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      margin-top: -4px; }
+    .navbar__contacts {
+      margin-right: 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      text-align: right; }
+    .navbar__address {
+      font-size: 13px;
+      font-family: "Museo Sans Light";
+      font-weight: 400;
+      color: #333333; }
+    .navbar__phone {
+      font-size: 20px;
+      font-family: "Museo Sans bold";
+      font-weight: 900;
+      text-decoration: none;
+      color: #333333; }
+    .navbar__button {
+      font-family: "Museo Sans bold";
+      font-weight: 400;
+      padding: 18px 30px;
+      margin-left: 30px; }
   .hero-text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3787,6 +3832,14 @@ main {
               justify-content: space-between;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
+    .offer-submit__button {
+      padding: 0;
+      font-size: 16px;
+      font-family: "Museo Sans bold";
+      font-weight: 400;
+      line-height: 18px;
+      max-width: 400px;
+      width: 100%; }
   .input {
     border-radius: 10px;
     border: 1px solid #dddddd;
@@ -3810,31 +3863,74 @@ main {
         width: 100%;
         margin: 10px 0;
         margin-right: 10px; }
-  .button {
-    margin: 30px 0;
-    padding: 26px 101px; }
-  -submit__button {
-    padding: 0;
-    font-size: 16px;
-    font-family: "Museo Sans bold";
-    font-weight: 400;
-    line-height: 18px; }
-  -submit-call {
+    .input-call {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .input-call__callback {
+        width: 110%; }
+    .input-usercall {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding: 0; }
+      .input-usercall__text {
+        padding: unset;
+        margin-right: 10px; }
+  .form {
+    max-width: 368px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
-    -submit-call__callback {
-      width: 110%; }
-  -submit-usercall {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    padding: 0; }
-    -submit-usercall__text {
-      padding: unset;
-      margin-right: 10px; } }
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 2px; }
+    .form__title {
+      padding: 5px 2px;
+      margin: 0;
+      font-size: 22px;
+      font-family: "Museo Sans bold";
+      font-weight: 400;
+      line-height: 33px;
+      text-align: center; }
+    .form__subtitle {
+      padding: 31px 0;
+      font-size: 16px;
+      font-family: "Museo Sans Light";
+      font-weight: 400;
+      line-height: 35px;
+      margin-bottom: 11px; }
+    .form-block {
+      margin-right: 6px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 100%;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: relative; }
+      .form-block .label {
+        width: 100%; }
+      .form-block__input {
+        max-height: 65px;
+        margin-bottom: 15px;
+        display: block;
+        width: 100%;
+        padding: 23px;
+        position: relative; } }
 
 @media (max-width: 992px) {
   .container {
@@ -3963,6 +4059,11 @@ main {
   .brif .form-block__input {
     display: block;
     width: 100%; }
+  .brif__interview {
+    -ms-flex-preferred-size: 80%;
+        flex-basis: 80%; }
+  .interview__subtitle {
+    margin-bottom: 0; }
   .footer .contacts-space {
     -ms-flex-preferred-size: 60%;
         flex-basis: 60%; }
