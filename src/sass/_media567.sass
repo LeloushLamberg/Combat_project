@@ -8,12 +8,11 @@
       max-width: 500px
       width: 90%
   .container
-    width: 95%
-    margin: 0px 10px
+    width: 90%
+    margin: 0px auto
   .navbar
     padding: 14px 0px
-    &-block
-      justify-content: flex-start
+    
     img
       padding-left: -13px
       padding-top: 2px
@@ -137,6 +136,7 @@
     &__title
       padding: unset
       font-size: 18px
+      line-height: unset
     &__subtitle
       padding: 10px 0
       font-size: 14px
@@ -176,14 +176,16 @@
     
   .contacts
     background: $light-bgc
-
+    align-items: center
+    justify-content: center
     &-space  
-      flex-basis: 0%
+      display: none
     &-block
-      flex-basis: 90%
+      
     &__title
       padding: unset
       font-size: 18px
+      width: 315px
 
 @media (max-width: 405px)
   .offer   

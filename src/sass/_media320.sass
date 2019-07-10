@@ -103,7 +103,7 @@
               
       &__button
         width: 200px
-        display: inherit
+        display: inline-block
         font-size: 14px
     &-call
       flex-direction: column
@@ -119,8 +119,7 @@
       &__phone
         margin: 0
         padding: 0px 6px 50px 6px
-  .button
-    padding: unset
+  
     
   .portfolio
     background: $darck-bgc
@@ -153,28 +152,6 @@
     &__subtitle
       padding: 10px 0
       font-size: 14px
-  
-
-  .brif
-    background-image: url('../img/brif-bg.jpg'), url('../img/brif-bg-img.jpg')
-    background-position: left top, left bottom
-    background-size: 100% 50%, 100% 50%
-    background-repeat: no-repeat, no-repeat
-    &-block
-      flex-direction: column
-    .interview
-      padding-right: 10px
-      padding-bottom: 82px
-      &__title
-        padding: 6px 0
-        font-size: 18px
-      &__subtitle
-        font-size: 14px
-        margin: 0
-  .form
-    &-block 
-      &__input
-        width: inherit  
   .footer
     position: relative
   .map
@@ -183,14 +160,18 @@
     top: 450px
     left: 0
     
-    
   .contacts
     background: $light-bgc
-
+    align-items: center
+    justify-content: center
     &-space  
-      flex-basis: 0%
+      display: none
     &-block
-      flex-basis: 90%
+      width: 100%
     &__title
       padding: unset
       font-size: 18px
+      width: 315px
+  
+
+  
