@@ -4073,6 +4073,10 @@ main {
   .container {
     width: 90%;
     margin: 0px auto; }
+  .navbar__logo img {
+    width: 65%; }
+  .navbar__phone {
+    font-size: 16px; }
   .hero-block {
     max-width: 90%; }
     .hero-block_padding {
@@ -4191,6 +4195,8 @@ main {
     position: relative; }
   .contacts {
     background: #fdfdfd; }
+    .contacts__title {
+      font-size: 14px; }
     .contacts-space {
       -ms-flex-preferred-size: 0%;
           flex-basis: 0%; }
